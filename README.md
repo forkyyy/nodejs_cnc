@@ -9,7 +9,9 @@ Coded by forky (tg: @yfork)
 Installation:
 
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+
 sudo apt -y install nodejs
+
 npm i ssh2 axios
 
 
