@@ -100,6 +100,8 @@ function send_attack(client, method, ...args) {
         })
         .catch(error => {
             //console.error(error);
+            clientAttacks = clientAttacks.filter(a => a !== attack);
+            user.attacks = clientAttacks; // update user's active attacks
             console.log(`${cnc_name} - failed to attack ${attack.host}`)
         });
 
