@@ -1,0 +1,27 @@
+{
+  "name": "eternity-ssh",
+  "version": "1.0.0",
+  "description": "EternityNetwork SSH Server.",
+  "main": "index.js",
+  "author": "KingSK",
+  "private": true,
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.4.0",
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "settings": "^0.1.1",
+    "ssh-keygen": "^0.5.0",
+    "ssh2": "^1.5.0"
+  },
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  }
+}

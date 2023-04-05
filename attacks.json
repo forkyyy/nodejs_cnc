@@ -1,0 +1,13 @@
+{
+    "attacks": [
+        {
+            "method": "udp",
+            "host": "1.1.1.1",
+            "port": 80,
+            "time": 10,
+            "username": "user1",
+            "start_time": 1649248150247,
+            "end_time": 1649248160247
+        }
+    ]
+}

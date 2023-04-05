@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "username": "forky",
+            "password": "safepass",
+            "concurrents": 1,
+            "max_boot": 300,
+            "attacks": []
+        },
+        {
+            "username": "user2",
+            "password": "password2",
+            "concurrents": 10,
+            "max_boot": 600,
+            "attacks": []
+        }
+    ]
+}

