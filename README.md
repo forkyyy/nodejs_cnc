@@ -26,6 +26,7 @@ Update line 21 to change the botnet name
 Update line 22 to change the botnet port
 
 
+
 Firewall:
 
 Its recommended to make a firewall for your CNC in case its open to the public
