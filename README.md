@@ -33,5 +33,7 @@ Here is a simple iptables ratelimit that together with a OVH/Path server should 
 Replace 2222 with your CNC port
 
 iptables -A INPUT -p tcp --dport 2222 -m connlimit --connlimit-above 1 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
+
 iptables -A INPUT -p tcp --dport 2222 -m recent --set --name ratelimit
+
 iptables -A INPUT -p tcp --dport 2222 -m recent --update --seconds 1 --hitcount 10 --rttl --name ratelimit -j DROP
