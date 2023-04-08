@@ -23,7 +23,7 @@ Update line 22 to change the botnet port</h3>
 <h1>Firewall:</h1>
 
 <h2>Protect your CNC by creating a firewall if it's accessible to the public</h2>
-<h3><p>Use this straightforward iptables ratelimit in combination with an OVH/Path server to prevent most handshake DDoS attacks. Don't forget to substitute 2222 with your CNC port.</p></h3>
+<h3><p>Use this iptables ratelimit in combination with an OVH/Path server to prevent most handshake DDoS attacks. Don't forget to substitute 2222 with your CNC port</p></h3>
 
 
 ```sh
