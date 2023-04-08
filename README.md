@@ -13,10 +13,10 @@ npm i ssh2 axios
 
 <h1>Setup:</h1>
 
-<p>Update servers.json to your methods/API servers</p>
-<p>Update users.json to your username/passwords and concurrents/maxboot</p>
-<p>Update line 21 to change the botnet name</p>
-<p>Update line 22 to change the botnet port</p>
+<h3>Update servers.json to your methods/API servers<br>
+Update users.json to your username/passwords and concurrents/maxboot<br>
+Update line 21 to change the botnet name<br>
+Update line 22 to change the botnet port</h3>
 
 
 
