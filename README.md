@@ -6,7 +6,7 @@ NodeJS SSH2 Command and Control server to launch DDoS attacks using API
 Coded by forky (tg: @yfork)
 
 
-Installation:
+<h1>Installation:</h1>
 
 ```sh
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
