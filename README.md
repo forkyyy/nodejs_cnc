@@ -1,9 +1,6 @@
-# nodejs_cnc
-
-
 <h2>NodeJS SSH2 Command and Control server to launch DDoS attacks using API</h2>
 
-<h3>Coded by forky (tg: @yfork)</h3>
+<h3>Coded by forky (tg: ***@yfork***)</h3>
 
 
 <h1>Installation:</h1>
@@ -14,15 +11,12 @@ sudo apt -y install nodejs
 npm i ssh2 axios
 ```
 
-Setup:
+<h1>Setup:</h1>
 
-Update servers.json to your methods/API servers
-
-Update users.json to your username/passwords and concurrents/maxboot
-
-Update line 21 to change the botnet name
-
-Update line 22 to change the botnet port
+<p>Update servers.json to your methods/API servers</p>
+<p>Update users.json to your username/passwords and concurrents/maxboot</p>
+<p>Update line 21 to change the botnet name</p>
+<p>Update line 22 to change the botnet port</p>
 
 
 
