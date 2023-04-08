@@ -22,9 +22,8 @@ npm i ssh2 axios
 
 <h1>Firewall:</h1>
 
-<h3>Its recommended to make a firewall for your CNC in case its open to the public<br>
-Here is a simple iptables ratelimit that together with a OVH/Path server should block most handshake DDoS attacks<br>
-Replace 2222 with your CNC port</h3>
+<h3>Protect your CNC by creating a firewall if it's accessible to the public.</h3>
+<p>Use this straightforward iptables ratelimit in combination with an OVH/Path server to prevent most handshake DDoS attacks. Don't forget to substitute 2222 with your CNC port.</p>
 
 
 iptables -A INPUT -p tcp --dport 2222 -m connlimit --connlimit-above 1 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
