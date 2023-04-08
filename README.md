@@ -31,3 +31,4 @@ iptables -A INPUT -p tcp --dport 2222 -m connlimit --connlimit-above 1 --connlim
 iptables -A INPUT -p tcp --dport 2222 -m recent --set --name ratelimit
 iptables -A INPUT -p tcp --dport 2222 -m recent --update --seconds 1 --hitcount 10 --rttl --name ratelimit -j DROP
 ```
+ 
