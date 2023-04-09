@@ -1,6 +1,6 @@
 <h2>NodeJS SSH2 Command and Control server to launch DDoS attacks using API</h2>
 
-<h3>Coded by forky (tg: ***@yfork***)</h3>
+<h3>Coded by forky (tg: @yfork)</h3>
 
 
 <h1>Installation:</h1>
